@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body style="background: url(img/Fondo.png)no-repeat ; width: 1504px; height: 830px;">
+    
+    <!-- Image and text -->
+    
+<nav class="navbar navbar-light  navbar navbar-expand-lg" style="background-color: #04A7BD;">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+<!--       <div class="d-flex justify-content-center align-items-center">
+ -->      <h3>Design Your Profile</h3>
+      <img src="img/Tortuga-Marina.png" class="fotito" width="60" height="60" class="d-inline-block align-top" alt="">
+<!--       </div>
+ -->    </a>
+    <div class="nav">
+      <button type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/usuario-de-perfil.png" width="40" height="40" class="d-inline-block align-top" alt="">
+      </button>
+      
+      <a class="nav-link" href="#"><img src="img/lista.png" width="40" height="40" class="d-inline-block align-top" alt=""></a>
+
+     <!--  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+          Registro
+      </button> -->
+      
+    </div>
+  </div>
+  </nav>
+
+
+  <div class="contenedor">
+  <img src="img/imagen.png" alt="">
+  </div>
+
+  <div class="texto">
+  <div class="d-inline-block justify-content-center align-items-center">
+  <h1 class="animate__animated animate__zoomIn animate__delay-2s"><img src="img/roca.png" width="80px" alt="">Perfil</h1>
+</div>
+  <div class="texto1">
+    <div class="d-inline-block justify-content-center align-items-center">
+    <h1 class="animate__animated animate__zoomIn animate__delay-2s"><img src="img/roca2.png" width="80px" alt="">Estudio</h1>
+  </div>
+  <div class="texto2">
+    <div class="d-inline-block justify-content-center align-items-center">
+    <h1 class="animate__animated animate__zoomIn animate__delay-2s"><img src="img/roca2.png" width="80px" alt="">Proyecto </h1>
+  </div>
+    <div class="texto3">
+      <div class="d-flex justify-content-center align-items-center">
+      <h1 class="animate__animated animate__zoomIn animate__delay-2s"><img src="img/roca2.png" width="80px" alt="">Anexos </h1>
+    </div>
+    
+  
+  <!-- modal -->
+  
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel" >CREAR UNA CUENTA</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+
+                <form>
+                    <div class="row" >
+                        <div class="col-6 mb-4">
+                            <input type="text" id="nombre_user" class="form-control" placeholder="Nombre">
+                        </div>
+                        <div class="col-6 mb-4">
+                            <input type="text" id="apellido_user" class="form-control" placeholder="Apellido">
+                        </div>
+                        <div class="col-12 mb-4">
+                            <input type="email" id="correo_user" class="form-control" placeholder="Correo">
+                        </div>
+                        <div class="col-6 mb-4">
+                            <input type="text" id="direccion_user" class="form-control" placeholder="Direccion">
+                        </div>
+                        <div class="col-6 mb-4">
+                          <input type="number" id="tel_user" class="form-control" placeholder="Nro. Telefonico">
+                      </div>
+                      <div class="col-6 mb-4">
+                        <input type="text" id="ciudad_user" class="form-control" placeholder="Ciudad">
+                    </div>
+                    <div class="col-6 mb-4">
+                      <input type="text" id="depart_user" class="form-control" placeholder="departamento">
+                  </div>
+                  <div class="col-12 mb-4">
+                    <input type="password" id="contraseña_user" class="form-control" placeholder="contraseña">
+                </div>
+                <div class="col-12 mb-4">
+                  <input type="text" id="documento_user" class="form-control" placeholder="documento">
+              </div>
+
+
+                    </div>
+                    <div class="custom-control custom-switch mb-3">
+                        <input type="checkbox" class="custom-control-input" id="tyc_user">
+                        <label class="custom-control-label" for="tyc_user">Acepta <a target="_blank" href="https://google.com">terminos y condiciones</a></label>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-md btn-block" onclick="registro_user()">Registrarme</button>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- finalizacion de modal -->
+
+
+  
+
+ <footer >
+
+<div class="info2">
+  <h3>Siguenos en:<h3>
+</div>
+
+  <div class="icon5">
+  <a href="https://es-la.facebook.com/nike/"><img src="img/whatsapp.png" alt=""></a>
+  <a href="https://twitter.com/adidasco?lang=es"><img src="img/twitter.png" alt=""></a>
+  <a href="https://es-la.facebook.com/nike/"><img src="img/facebook.png" alt=""></a>
+  <a href="https://twitter.com/adidasco?lang=es"><img src="img/youtube.png" alt=""></a>
+  <a href="https://www.instagram.com/reebokcolombia/?hl=es-la"><img src="img/instagram.png" alt=""></a>
+  <a href="videos.html"><img src="img/youtube.png" alt=""></a>
+</div>
+
+ </footer>
+  
+    
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/sweetalert.js"></script>
+    <script src="js/funciones.js "></script>
+
+</body>
+</html>
