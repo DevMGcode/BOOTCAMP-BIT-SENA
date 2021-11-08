@@ -1,0 +1,88 @@
+body{
+
+    background-image: url(../img/fondopage.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:violet;
+}
+
+.bg-light{
+
+    background-color: #FF7A00!important;
+}
+
+.carrouselmine{
+
+    margin-top: 2%;
+    width: 80%;
+    background-color: #F8BC75;
+    border-color: #FE8E0B  solid 2rem;
+    border-radius: 1%;
+    margin-left: 10%;
+}
+
+.navbar-collapse{
+
+    margin-left: 20%;
+    width: 20%;
+}
+
+.carousel-control-prev{
+
+    color: black !important;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    TEXT-ALIGN: initial;
+    MARGIN-LEFT: 5%;
+}
+
+.decor{
+    width: 1100px; 
+     height: 10px; 
+     background: #FF7A00;
+     margin-top: 0%;
+     margin-left: 5%;
+     margin-bottom: 2%;
+
+     
+
+
+}
+
+.barra2{
+
+    background-color: #F8BC75;
+    text-align: center;
+}
+
+
+.border-warning {
+    border-color: #D48A32 !important;
+    border-style:solid !important;
+    border-width: 2px !important;
+}
+.celulares{
+    border-right: black solid 2px;
+}
+.computadores{
+    border-right: black solid 2px;
+}
+
+.card-body{
+    background-color: #D48A32;
+}
+
+.fondo{
+    background-color: #FEF8F1;
+}
+
+
+.barra3{
+
+    background-color: #FF7A00;
+    text-align: center;
+}
