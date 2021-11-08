@@ -1,0 +1,26 @@
+
+.contenedor{
+    width: 800px;
+    position: relative;
+    margin: auto;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    background-color: #ff3a6b;
+    color: white;
+    padding: 10px 20px;
+}
+
+td{
+    padding: 20px;
+    text-align: center;
+}
+
+table,td,th{
+    border: 1px solid #ff3a6b;
+    border-collapse: collapse;
+}

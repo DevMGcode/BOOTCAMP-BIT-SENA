@@ -1,0 +1,82 @@
+
+body{
+
+    margin:0;
+    padding: 0;
+}
+.fondo-barra{
+background-color: #5e17eb;
+width: 100%;
+height: auto;
+}
+
+.contenedor-barra{
+
+    display: flex;
+    justify-content: space-around;
+    
+    font-family: 'Roboto Slab';
+    color:white;
+}
+
+
+
+.logo-titulo{
+
+    font-size: 15px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 15%;
+  
+}
+
+.logotipo{
+
+    width: 80%;
+    /* height: 100%; */
+    margin-left: 10px;
+    position: absolute;
+    left: 0px;
+    bottom: 7px;
+    
+}
+
+.barrabuscar{
+    
+    padding-top: 5%;
+    margin-left: 5%;
+} 
+
+.menu2{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 12px;
+/*  padding: 0 15px; */   
+    margin-right: 10%;
+    
+}
+
+.menu2 h4{
+/* position: relative; */   
+    margin-top: 18%;
+    padding: 0 15px;
+    /* margin left: 10%; */
+   
+}
+
+.icon1{
+   /*  position:absolute;*/
+  /* margin-bottom: 0%;  */
+    margin-right: -16%;
+}
+
+.icon2{
+    margin-right: -18%;
+}
+
+.icon3{
+    margin-right: -18%;
+}

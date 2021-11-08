@@ -1,0 +1,19 @@
+
+.galeria {
+    justify-content: center;
+    display: grid;
+    padding: 1rem;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: 200px;
+    font-size: 2rem;
+    font-family: 'Roboto Slab';
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .cuadro {
+    background-color: #e7e6e9;
+    color: rgb(99, 95, 95);
+    /* padding: 1rem; */
+  }
